@@ -15,11 +15,14 @@
     <!--costume css  -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- animation css  -->
+    <link rel="stylesheet" href="css/animation/animation.css">
+
     <!-- responsive css  -->
     <link rel="stylesheet" href="css/responsive/responsive.css">
 
 </head>
-    <body>
+<body>
     <!-- strate  -->
     <!-- header strate  -->
     <header id="header">
@@ -31,7 +34,7 @@
                         Project App
                     </span>
                 </a>
-                <button class="navbar-toggler m-3" data-bs-toggle="collapse" data-bs-target="#mynav"> 
+                <button class="navbar-toggler m-3" data-bs-toggle="collapse" data-bs-target="#mynav">
                     <span class="navbar__toggler__icon">
                         <img src="img/hambarger logo/hamdarger-logo.jpg
                         " alt="">
@@ -39,16 +42,25 @@
                 </button>
                 <div id="mynav" class="navbar-collapse collapse">
                     <ul class="navbar-nav ms-auto text-md-center">
-                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">ScreenShots</a></li>
-                        <li class="nav-item dropdown__toggler"><a href="#" class="nav-link">courses <i class="fa fa-angle-double-down"></i></a>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">ScreenShots</a>
+                        </li>
+                        <li class="nav-item dropdown__toggler">
+                            <a href="#" class="nav-link">courses <i class="fa fa-angle-double-down"></i>
+                            </a>
                             <ul class="dropdown__menu navbar-nav shadow-lg">
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">Web Design </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Web Development </a></li>
+                                    <a href="#" class="nav-link">Web Development </a>
+                                </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">App Development</a>
                                 </li>
@@ -57,17 +69,55 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a href="#" class="nav-link">pricing</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">contact</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- header navbar End  -->
+        <!-- design icons -->
+        <span class="design__icons">
+            <i class="fa fa-plus animation__icon animation__icon__1"></i>
+            <i class="fa fa-plus animation__icon animation__icon__2"></i>
+            <i class="fa fa-circle-notch animation__icon animation__icon__3"></i>
+        </span>
+        <!-- design icons  end-->
 
+        <!-- header app section -->
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="app__intro">
+                        <h1>Best Mobile App Template <br>
+                            for your Business.
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus sint saepe quos et id deleniti? Quo nostrum nisi fugiat facilis.
+                        </p>
+                        <div class="button__group">
+                            <button class="btn hero__button">Download</button>
+                            <button class="btn hero__button play__btn"><i class="fa fa-play"></i></button>
+                        </div>
+                    </div>
+                 </div>
+                <div class="col-6 ">
+                    <div class="app__img" >
+                        <img src="./img/app-screenshots/1.png" alt="">
+                        <div class="bg__circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header app section end -->
     </header>
     <!-- header end  -->
-    
+
     <!-- end  -->
 
     <!-- js files  -->
@@ -79,5 +129,6 @@
     <script src="js/popper.min.js"></script>
     <!-- Gsap js  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineLite.min.js"></script>
-    </body>
+</body>
+
 </html>

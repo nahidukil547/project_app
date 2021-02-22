@@ -1,4 +1,12 @@
 @media screen and (max-width: 991px) {
+  .navbar-collapse{
+    position: absolute;
+    top: 6rem ;
+    width: 100%;
+    background:#7857FE;
+    z-index: 3;
+
+  }
   .nav-item {
     height: 100%;
     min-height: 5rem;
@@ -71,7 +79,8 @@
     width: 10rem;
   }
   .dropdown__menu {
-    width: 12rem;
+    left: 9rem;
+    width: 11.5rem;
   }
   .dropdown__menu .nav-link {
     text-align: center;
