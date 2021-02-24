@@ -3,6 +3,7 @@
     0% {
         box-shadow: 0 0 1.7rem -.3rem #FFFFFF;
         transform: scale(.98);
+        z-index: -1;
     }
     50% {
         box-shadow: 0 0 1.7rem 2rem #ffffff00;
@@ -11,6 +12,7 @@
     100% {
         box-shadow: 0 0 1.7rem 2rem #ffffff00;
         transform: scale(.98);
+         z-index: -1;
     }
 }
 /* hero Icon animation */
