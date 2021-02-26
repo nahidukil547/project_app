@@ -1,0 +1,17 @@
+h2. Awesome Features 
+-------------------------
+1.Clean Code 
+lorem 12
+2. Auto Install System
+lorem 12
+3.Pixel Perfect design
+lorem 12
+4. Responsive 
+lorem 12
+5. Fully Compatible 
+lorem 12
+6.SEO Firendly
+lorem 12
+7. UX/UI Design 
+lorem 12
+

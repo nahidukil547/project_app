@@ -62,25 +62,24 @@
    .design__icons{
        display: none;
    }
-   .navbar-collapse{
-    position: absolute;
-    background:#7857FE;
-    top: 5rem;
-   }
-   .navbar-collapse {
-           width: 100%;
-           position: absolute;
-           background: #45348a9f;
-           top: 6rem;
-           left: 0px ;
-   }
+    .navbar-collapse{
+        width: 100%;
+        position: absolute;
+        background: #45348a9f;
+        top: 6rem;
+        left: 0px;
+        z-index: 5 !important;
+    }
    .navbar-collapse .nav-item{
        height: auto;
    }
+   .app__img{
+       margin-top: 1rem ;
+
+   }
    .app__intro{
        margin-top: 4rem !important;
-   }
-  
+   } 
 }
 @media screen and (max-width:768px){
     .navbar__logo{

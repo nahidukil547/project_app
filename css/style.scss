@@ -12,9 +12,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: var(--roboto)
-}
 
 /* variable*/
 :root {
@@ -32,6 +29,10 @@ body {
     --lato: 'lato'sans-serif;
     --roboto: 'roboto'sans-serif;
 }
+body {
+    font-family:var(--lato);
+
+}
 h1,
 h2,
 h3,
@@ -40,6 +41,7 @@ h4 {
 }
 p {
     font-size: 1.6rem;
+    color: #6b6a6a;
 }
 a {
     text-decoration: none;
@@ -57,9 +59,11 @@ img{
     border-radius: 0 0 20rem 0 ;
 }
 /*header navbar strate */
+
 .navbar__bg {
     background: var(--primary) !important;
     padding: 0;
+    display: fixed;
 }
 .navbar__logo {
     font-size: 4rem;
@@ -204,8 +208,9 @@ img{
 .app__img {
     width: 30rem;
     height: 60rem;
-    margin: 3rem auto;
+    margin: 10rem auto;
     position: relative;
+
 }
 
 .bg__circle {
@@ -233,3 +238,27 @@ img{
     animation: roundCircle 20s linear infinite;
 }
 /*header app section end*/
+/*features strate */ 
+.features{
+    text-align: center;
+    margin: 10rem 0rem;
+    font-family: sans-serif;
+}
+.features h2{
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 8rem;
+}
+.features__box{
+    width: 30rem;
+    margin: 0 auto;
+}
+.features__box .features__box__icon{
+    font-size: 5rem;
+    color: var(--primary);
+}
+.features__box h3{
+    font-size: 3rem;
+    font-weight: 500;
+
+}
