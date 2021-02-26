@@ -262,3 +262,8 @@ img{
     font-weight: 500;
 
 }
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot {
+    display: none;
+}
