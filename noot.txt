@@ -15,3 +15,103 @@ lorem 12
 7. UX/UI Design 
 lorem 12
 
+<div class="features__box">
+                            <div class="features__box__icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3>
+                                Clean Code
+                            </h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint aperiam sapiente fugit.</p>
+                       </div>
+<div class="features__box">
+                            <div class="features__box__icon">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <h3>
+                                Auto Install System
+                            </h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint aperiam sapiente fugit.</p>
+                        </div>
+
+<div class="features__box">
+                            <div class="features__box__icon">
+                                <i class="fas fa-edit"></i>
+                            </div>
+                            <h3>
+                                Pixel Perfect design
+                            </h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint aperiam sapiente fugit.</p>
+                        </div>
+
+ <div class="features__box">
+                            <div class="features__box__icon">
+                                <i class="fas fa-american-sign-language-interpreting"></i>
+                            </div>
+                            <h3>
+                                Responsive
+                            </h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint aperiam sapiente fugit.</p>
+                        </div>
+
+<div class="features__box__icon">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <h3>
+                                Fully Compatible
+                            </h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint aperiam sapiente fugit.</p>
+                        </div>
+
+ <div class="features__box">
+                            <div class="features__box__icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <h3>
+                                SEO Friendly
+                            </h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint aperiam sapiente fugit.</p>
+                        </div>
+
+<div class="features__box">
+                            <div class="features__box__icon">
+                                <i class="fab fa-uikit"></i>
+                            </div>
+                            <h3>
+                                UX/UI Design
+                            </h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint aperiam sapiente fugit.</p>
+                        </div>
+
+owl carousel
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {}
+.owl-theme .owl-dots .owl-dot:hover span{}
+.owl-theme .owl-dots .owl-dot.active span{}
+
+
+hasan{ https://ibb.co/g3Trxt0 }
+jayed{ https://ibb.co/7JwYzp8 }
+liton{ https://ibb.co/yXmWNSc }
+mahmudul { https://ibb.co/fqqc38W }
+marshafi{ https://ibb.co/Wg54DJ7 }
+mehedi {https://ibb.co/pd7QC2T}
+mosadek {https://ibb.co/cDWcYZh}
+muspiq{ https://ibb.co/nkmB78F }
+mustafis{ https://ibb.co/ctkJHcT }
+rubel { https://ibb.co/gt6k19V }
+sabbir { https://ibb.co/WDPXxGy }
+saifudin { https://ibb.co/WDPXxGy }
+sakib { https://ibb.co/pJt5cQM }
+tamim { https://ibb.co/0F6nj51 }
+sobbo{ https://ibb.co/NTqJH9s }
+
+
+
+
+
+
+
+
+
+
