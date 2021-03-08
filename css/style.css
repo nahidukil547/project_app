@@ -343,4 +343,9 @@ img {
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #7857fe88;
 }
+
+/*facts section */
+.facts__img {
+  width: 20rem;
+}
 /*# sourceMappingURL=style.css.map */

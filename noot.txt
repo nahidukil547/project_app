@@ -90,24 +90,21 @@ owl carousel
 .owl-theme .owl-dots .owl-dot.active span{}
 
 
-hasan{ https://ibb.co/g3Trxt0 }
-jayed{ https://ibb.co/7JwYzp8 }
-liton{ https://ibb.co/yXmWNSc }
-mahmudul { https://ibb.co/fqqc38W }
-marshafi{ https://ibb.co/Wg54DJ7 }
-mehedi {https://ibb.co/pd7QC2T}
-mosadek {https://ibb.co/cDWcYZh}
-muspiq{ https://ibb.co/nkmB78F }
-mustafis{ https://ibb.co/ctkJHcT }
-rubel { https://ibb.co/gt6k19V }
-sabbir { https://ibb.co/WDPXxGy }
-saifudin { https://ibb.co/WDPXxGy }
-sakib { https://ibb.co/pJt5cQM }
-tamim { https://ibb.co/0F6nj51 }
-sobbo{ https://ibb.co/NTqJH9s }
 
+Fun facts
+lorem 25
 
+4000
+downloads
+ 
+200 
+likes
 
+500 
+5 start rating 
+
+150 
+awards
 
 
 

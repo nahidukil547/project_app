@@ -105,6 +105,9 @@
 }
 
 @media screen and (max-width: 576px) {
+  #header {
+    height: 80vh !important;
+  }
   .nav-item {
     margin-left: 1rem;
   }
@@ -147,6 +150,27 @@
             transform-origin: 11.5rem 10.5rem;
     -webkit-animation: roundCircle 6s linear infinite;
             animation: roundCircle 6s linear infinite;
+  }
+  .features {
+    margin-top: 10rem;
+    padding: 0;
+  }
+  .features h2 {
+    font-size: 3rem;
+  }
+  .features .item {
+    padding: 0 !important;
+    margin: 0;
+  }
+  .features .item .features__box {
+    padding: 0;
+    width: 100%;
+  }
+  .features .item .features__box h3 {
+    font-size: 2rem;
+  }
+  .features .item .features__box p {
+    font-size: 1.6rem;
   }
 }
 

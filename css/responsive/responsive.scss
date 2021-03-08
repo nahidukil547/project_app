@@ -105,7 +105,11 @@
 }
 
 @media screen and (max-width:576px){
-   .nav-item{
+   #header{
+       height: 80vh !important;
+
+   }
+    .nav-item{
        margin-left: 1rem ;
       
    }
@@ -147,6 +151,27 @@
         top: 2rem;
         transform-origin: 11.5rem 10.5rem;
          animation: roundCircle 6s linear infinite;
+    }
+    .features{
+        margin-top: 10rem;
+        padding: 0 ;
+        h2{
+            font-size: 3rem;
+        }
+        .item{
+            padding: 0 !important;
+            margin: 0;
+            .features__box{
+                padding: 0;
+                width: 100%;
+                h3{
+                    font-size: 2rem;
+                }
+                p{
+                    font-size:1.6rem;
+                }
+            }
+        }
     }
 
 }
