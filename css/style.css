@@ -34,9 +34,13 @@ body {
 
 h1,
 h2,
-h3,
 h4 {
   font-family: var(--lato);
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 3rem;
 }
 
 h2 {
@@ -323,7 +327,6 @@ img {
 }
 
 .features__box h3 {
-  font-size: 2.5rem;
   margin: 3rem;
 }
 
@@ -439,6 +442,7 @@ img {
   -webkit-box-shadow: none;
           box-shadow: none;
   padding-top: 2rem;
+  width: auto;
 }
 
 .download__app .opacity__bg .card .features__box .card__button {
@@ -454,5 +458,40 @@ img {
 .works {
   text-align: center;
   padding: 10rem 0rem;
+}
+
+.works .row {
+  position: relative;
+}
+
+.works .row .hr__line {
+  width: 75%;
+  height: .3rem;
+  background: var(--primary);
+  position: absolute;
+  margin: auto;
+  top: 16%;
+  left: 54%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: -1;
+}
+
+.works .row .point__section {
+  background: none;
+}
+
+.works .row .point__section .features__box span {
+  width: 6rem;
+  height: 6rem;
+  display: inline-block;
+  font-size: 3rem;
+  background: var(--primary);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 6rem;
+  color: var(--light);
+  font-weight: 700;
+  margin-bottom: 3rem;
 }
 /*# sourceMappingURL=style.css.map */
