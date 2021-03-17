@@ -398,6 +398,7 @@ img {
 
 .download__app {
   text-align: center;
+  margin-top: 8rem;
   background: url("../img/download-app-bg.jpg");
   background-position: top;
 }
@@ -437,6 +438,7 @@ img {
 .download__app .opacity__bg .card .features__box {
   -webkit-box-shadow: none;
           box-shadow: none;
+  padding-top: 2rem;
 }
 
 .download__app .opacity__bg .card .features__box .card__button {
@@ -452,24 +454,5 @@ img {
 .works {
   text-align: center;
   padding: 10rem 0rem;
-}
-
-.works .numbers {
-  padding: 5rem 0rem;
-}
-
-.works .numbers .point {
-  background: var(--primary);
-  border-radius: 50%;
-  width: 5rem;
-  height: 5rem;
-  line-height: 5rem;
-  display: inline-block;
-}
-
-.works .numbers .point::after {
-  width: 10rem;
-  height: 1rem;
-  display: block;
 }
 /*# sourceMappingURL=style.css.map */
