@@ -172,6 +172,9 @@
   .features .item .features__box p {
     font-size: 1.6rem;
   }
+  .facts__img {
+    width: 15rem;
+  }
 }
 
 @media screen and (max-width: 300px) {

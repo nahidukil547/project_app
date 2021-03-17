@@ -39,6 +39,11 @@ h4 {
   font-family: var(--lato);
 }
 
+h2 {
+  font-size: 5rem;
+  font-weight: 900;
+}
+
 p {
   font-size: 1.6rem;
   color: #6b6a6a;
@@ -284,12 +289,10 @@ img {
 /*features strate */
 .features {
   background: var(--light);
-  padding: 8rem;
+  padding-top: 8rem;
 }
 
 .features h2 {
-  font-weight: 900;
-  font-size: 5rem;
   color: var(--dark);
   margin-bottom: 8rem;
 }
@@ -345,7 +348,128 @@ img {
 }
 
 /*facts section */
+.fact .container {
+  margin-top: 20rem;
+}
+
 .facts__img {
-  width: 20rem;
+  width: 32rem;
+  margin: 0 auto;
+}
+
+.fact__details h2 span {
+  color: var(--primary);
+}
+
+.fact__details p {
+  font-size: 1.8rem;
+}
+
+.number__menu {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 5rem 0rem;
+  margin-top: 2.5rem;
+  border-radius: 1rem;
+}
+
+.number__menu h2 {
+  display: block;
+  color: var(--light);
+}
+
+.number__menu p {
+  font-size: 2rem !important;
+  color: var(--light);
+  text-transform: uppercase;
+}
+
+.screenshots {
+  text-align: center;
+}
+
+.screenshots h2 {
+  margin-bottom: 7rem;
+}
+
+.screenshots h2 span {
+  color: var(--primary);
+}
+
+.download__app {
+  text-align: center;
+  background: url("../img/download-app-bg.jpg");
+  background-position: top;
+}
+
+.download__app .opacity__bg {
+  padding-top: 10rem;
+  background: #7857fe94;
+  padding: 8rem 0rem;
+}
+
+.download__app .opacity__bg h2 {
+  color: #fff;
+  margin-bottom: 6rem;
+}
+
+.download__app .opacity__bg h2 span {
+  color: #643efd;
+}
+
+.download__app .opacity__bg .card {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: none;
+}
+
+.download__app .opacity__bg .card .features__box {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.download__app .opacity__bg .card .features__box .card__button {
+  font-size: 2rem;
+  color: var(--light);
+  padding: 1rem 2.5rem;
+  background: var(--primary);
+  border-radius: 4rem;
+  -webkit-box-shadow: 0rem 0rem 2rem 0.1rem var(--light);
+          box-shadow: 0rem 0rem 2rem 0.1rem var(--light);
+}
+
+.works {
+  text-align: center;
+  padding: 10rem 0rem;
+}
+
+.works .numbers {
+  padding: 5rem 0rem;
+}
+
+.works .numbers .point {
+  background: var(--primary);
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  display: inline-block;
+}
+
+.works .numbers .point::after {
+  width: 10rem;
+  height: 1rem;
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */

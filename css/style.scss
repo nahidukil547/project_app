@@ -39,6 +39,10 @@ h3,
 h4 {
     font-family: var(--lato);
 }
+ h2 {
+     font-size: 5rem;
+     font-weight: 900;
+    }
 p {
     font-size: 1.6rem;
     color: #6b6a6a;
@@ -242,11 +246,9 @@ img{
 /*features strate */ 
 .features {
     background: var(--light);
-    padding: 8rem;
+    padding-top: 8rem;
 
     h2 {
-        font-weight: 900;
-        font-size: 5rem;
         color: var(--dark);
         margin-bottom: 8rem;
 
@@ -300,6 +302,112 @@ img{
     background: #7857fe88;
 }
 /*facts section */ 
+.fact{
+    .container{
+        margin-top: 20rem;
+    }
+}
 .facts__img{
- width: 20rem;
+    width: 32rem;
+    margin: 0 auto;
+}
+.fact__details{
+    h2{
+        span{
+            color: var(--primary);
+        }
+    }
+    p{
+        font-size: 1.8rem;
+    }
+}
+.number__menu{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5rem 0rem;
+    margin-top: 2.5rem;
+    border-radius: 1rem;
+    h2{
+       display: block;
+       color: var(--light);
+    }
+     p {
+         font-size: 2rem !important;
+        color: var(--light);
+        text-transform: uppercase;
+     }
+}
+.screenshots{
+    text-align: center;
+    
+    h2{
+        margin-bottom: 7rem;
+        span{
+            color: var(--primary);
+        }
+    }
+}
+.download__app{
+    text-align: center;
+
+    
+    background: url('../img/download-app-bg.jpg');
+    background-position: top;
+    .opacity__bg{
+        padding-top:10rem ;
+        background: #7857fe94;
+        padding: 8rem 0rem;
+        h2{
+            color: #fff;
+            margin-bottom: 6rem;
+            span{
+                color: #643efd;
+            }
+        }
+        .card{
+            display: flex !important;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+           background: none;
+            .features__box{
+                box-shadow: none;
+                .card__button{
+                    font-size: 2rem;
+                    color: var(--light);
+                padding: 1rem 2.5rem;
+                    background: var(--primary);
+                    border-radius: 4rem;
+                    box-shadow: 0rem 0rem 2rem .1rem var(--light);
+                }
+            } 
+        }
+    } 
+}
+
+.works{
+    text-align: center;
+    padding: 10rem 0rem;
+    .numbers{
+        padding: 5rem 0rem;
+        .point{
+        background:var(--primary);
+        border-radius: 50%;
+        width: 5rem;
+        height: 5rem;
+        line-height: 5rem;
+        display: inline-block;
+        &::after{
+            width: 10rem ;
+            height: 1rem ;
+            display: block;
+        }
+            // span{
+            //     width: 30rem;
+            //     height: 1rem ;
+            //     background:var(--primary) ;
+            //     display: inline-block;
+            // }
+        }
+    }
 }
