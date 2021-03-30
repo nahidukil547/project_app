@@ -108,7 +108,66 @@ awards
 
 
 
+/*------------------------*/
+works
+/*------------------------*/
+
+Download 
+lorem15
+
+create profile 
+lorem15
+
+search product
+lorem15
+
+order
+lorem15
 
 
+/*------------------------*/
+client
+/*------------------------*/
+What Our Cliet Say
+
+img 
+
+lorem 10
+ upvesh Kumar
+UI designer
+icon star
+
+/*----------------------*/
+ pricing plan
+/*----------------------*/
+
+basic
+
+$
+99
+monthly
+
+*5GB Bandwidth
+*free Update 
+*high regulation printing
+*branding
+*another great feature
+btn{get started 
 
 
+/*-------------------*/
+team member
+/*-------------------*/
+
+img>
+Upvesh kumar
+ui designer
+
+/*----------------*/
+FAQ {Frequently Asked Queries}
+/*----------------*/
+
+*100% Fluid Responsive - Fits any device perfectly
+*Clean Code
+*Flat modern and clean design
+*Custom Font Support

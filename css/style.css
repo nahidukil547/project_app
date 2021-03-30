@@ -311,7 +311,6 @@ img {
 
 .features__box {
   width: 40rem;
-  height: 32rem;
   background: var(--light);
   padding: 1.5rem;
   border-radius: 1rem;
@@ -389,6 +388,7 @@ img {
 
 .screenshots {
   text-align: center;
+  padding-top: 5rem;
 }
 
 .screenshots h2 {
@@ -404,6 +404,8 @@ img {
   margin-top: 8rem;
   background: url("../img/download-app-bg.jpg");
   background-position: top;
+  background-repeat: no-repeat;
+  background: cover;
 }
 
 .download__app .opacity__bg {
@@ -464,24 +466,16 @@ img {
   position: relative;
 }
 
-.works .row .hr__line {
-  width: 75%;
-  height: .3rem;
-  background: var(--primary);
-  position: absolute;
-  margin: auto;
-  top: 16%;
-  left: 54%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  z-index: -1;
-}
-
 .works .row .point__section {
   background: none;
 }
 
-.works .row .point__section .features__box span {
+.works .row .point__section .features__box {
+  margin: 0 auto;
+  width: auto;
+}
+
+.works .row .point__section .features__box .hr__left {
   width: 6rem;
   height: 6rem;
   display: inline-block;
@@ -493,5 +487,167 @@ img {
   color: var(--light);
   font-weight: 700;
   margin-bottom: 3rem;
+}
+
+.hr::after {
+  content: '';
+  width: 23%;
+  height: .5rem;
+  background: var(--primary);
+  display: inline-block;
+  position: absolute;
+  top: 4rem;
+}
+
+/*----------- client ---------*/
+.client {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.client .features__box {
+  width: auto;
+  margin: 5rem;
+}
+
+.client .features__box .features__box__img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background: var(--primary);
+  padding: .5rem;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.client .features__box .features__box__img img {
+  border-radius: 100%;
+}
+
+.client .features__box .features__box__img i {
+  color: var(--light);
+  background: var(--primary);
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: -10%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.client .features__box h4 {
+  font-size: 2rem;
+}
+
+.client .features__box .smp {
+  font-size: 1.6rem;
+  color: #6b6a6a;
+}
+
+.client .features__box .star .fa-star {
+  color: var(--warning) !important;
+}
+
+/*pricing section*/
+.pricing h2 {
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.pricing .price__system {
+  font-size: 3.5rem;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin: 2rem 0rem;
+}
+
+.pricing .pricingHeader {
+  font-family: sans-serif;
+  margin: 4rem;
+}
+
+.pricing .pricingHeader .pricingHeader__douler {
+  font-size: 2rem;
+  color: var(--gray);
+  font-weight: 700;
+  margin-top: -3.5rem;
+}
+
+.pricing .pricingHeader .pricingHeader__price {
+  font-size: 7rem;
+  font-weight: 900;
+  color: var(--primary);
+}
+
+.pricing .pricingHeader .pricingHeader__month {
+  font-size: 2rem;
+  color: var(--gray);
+  margin-bottom: -5rem;
+}
+
+.pricing .pricing__plan .list-group-item {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+
+.pricing .pricing__plan .fa-check {
+  font-size: 2rem;
+  color: var(--primary);
+  padding: 0rem 2rem;
+}
+
+.pricing .btn {
+  margin: 3rem auto;
+  font-size: 2rem;
+  color: var(--light);
+  padding: 1rem 2.5rem;
+  background: var(--primary);
+  border-radius: 4rem;
+  -webkit-box-shadow: 0rem 0rem 2rem 0.1rem var(--light);
+  box-shadow: 0rem 0rem 2rem 0.1rem var(--light);
+}
+
+.member__section {
+  padding: 10rem 0rem;
+}
+
+.member__section .card .features__box__img {
+  padding: 2rem;
+}
+
+/*FAQ*/
+.faq {
+  padding: 5rem 0rem;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--light-gray);
+  background: var(--primary);
+}
+
+.accordion-button:not(.collapsed)::after {
+  background: url("../css/bootstrapp/Untitled-light-1.svg");
+}
+
+.accordion-button::after {
+  background: url("../css/bootstrapp/Untitled-black-2.svg");
+}
+
+.accordion-button {
+  font-size: 2rem;
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+.accordion-body p {
+  font-size: 1.8rem;
 }
 /*# sourceMappingURL=style.css.map */
