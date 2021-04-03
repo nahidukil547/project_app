@@ -650,4 +650,51 @@ img {
 .accordion-body p {
   font-size: 1.8rem;
 }
+
+/*-------------*/
+/*get in touch */
+/*-------------*/
+.touch {
+  padding: 10rem 0rem;
+}
+
+.touch h2 {
+  margin: 5rem 0rem;
+}
+
+.touch .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.touch .contact .contact__icon {
+  padding: 2rem 0rem;
+}
+
+.touch .contact .contact__icon span {
+  display: inline-block;
+  width: 6rem;
+  height: 6rem;
+  border: 0.3rem solid var(--primary);
+  border-radius: 50%;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 6rem;
+  color: var(--primary);
+}
+
+.touch .contact .contact__menu {
+  padding: 0rem 2rem;
+}
+
+.form-control {
+  font-size: 2rem;
+  margin: 1rem 0rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
 /*# sourceMappingURL=style.css.map */

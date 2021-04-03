@@ -110,7 +110,7 @@
 
 @media screen and (max-width: 576px) {
   #header {
-    height: 95Avh !important;
+    height: 80vh !important;
   }
   .nav-item {
     margin-left: 1rem;

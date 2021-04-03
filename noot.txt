@@ -171,3 +171,11 @@ FAQ {Frequently Asked Queries}
 *Clean Code
 *Flat modern and clean design
 *Custom Font Support
+
+/*-----------------*/
+Get In touch
+/*-----------------*/
+For any queries and support
+
+icon company location
+     199xyzgali,new dalhi
