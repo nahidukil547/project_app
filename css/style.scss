@@ -406,6 +406,7 @@ img {
     background-position: top;
     background-repeat: no-repeat;
     background: cover;
+
     .opacity__bg {
         padding-top: 10rem;
         background: #7857fe94;
@@ -619,35 +620,45 @@ img {
     }
 
 }
-/*FAQ*/  
-.faq{
+
+/*FAQ*/
+.faq {
     padding: 5rem 0rem;
 }
-.accordion-button:not(.collapsed){
+
+.accordion-button:not(.collapsed) {
     color: var(--light-gray);
     background: var(--primary);
 }
-.accordion-button:not(.collapsed)::after{
-    background: url('../css/bootstrapp/Untitled-light-1.svg') ;
-}.accordion-button::after{
+
+.accordion-button:not(.collapsed)::after {
+    background: url('../css/bootstrapp/Untitled-light-1.svg');
+}
+
+.accordion-button::after {
     background: url('../css/bootstrapp/Untitled-black-2.svg');
 }
-.accordion-button{
+
+.accordion-button {
     font-size: 2rem;
     font-family: sans-serif;
     padding: 2rem;
 }
-.accordion-body p{
+
+.accordion-body p {
     font-size: 1.8rem;
 }
+
 /*-------------*/
 /*get in touch */
 /*-------------*/
 .touch {
     padding: 10rem 0rem;
-    h2{
+
+    h2 {
         margin: 5rem 0rem;
     }
+
     .contact {
         display: flex;
         align-items: center;
@@ -667,15 +678,68 @@ img {
                 color: var(--primary);
             }
         }
-        .contact__menu{
+
+        .contact__menu {
             padding: 0rem 2rem;
         }
     }
 }
-.form-control{
+
+.form-control {
     font-size: 2rem;
     margin: 1rem 0rem;
     padding: 1rem;
     border-radius: 1rem;
     border: none;
+}
+
+.form-btn {
+    font-size: 2rem;
+    color: var(--light);
+    width: 15rem;
+    height: 5rem;
+    line-height: 4rem;
+    background: var(--primary);
+    border-radius: 4rem;
+    box-shadow: 0rem 0rem 2rem .1rem var(--light);
+    margin-left: 2rem;
+    margin-top: 5rem;
+}
+
+.form-btn:hover {
+    color: #fff;
+}
+
+/*------*/
+/*footer section*/
+/*------*/
+footer {
+    background: var(--primary);
+    font-family: sans-serif;
+    .footer__strate {
+        padding: 7rem 0rem 5rem 0rem;
+        h3 {
+            font-size: 2rem;
+            color: var(--light);
+            margin-bottom: 4rem;
+        }
+        p {
+            color: var(--light);
+            font-size: 1.8rem;
+        }
+        .list-group {
+
+            .list-group-item {
+                background: none;
+                border: none;
+                font-size: 1.8rem;
+                color: var(--light);
+                padding: .3rem;
+                text-transform: capitalize;
+            }
+        }
+    }
+    .footer__end{
+        padding: 3rem;
+    }
 }

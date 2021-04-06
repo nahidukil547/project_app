@@ -698,4 +698,58 @@ img {
   border-radius: 1rem;
   border: none;
 }
+
+.form-btn {
+  font-size: 2rem;
+  color: var(--light);
+  width: 15rem;
+  height: 5rem;
+  line-height: 4rem;
+  background: var(--primary);
+  border-radius: 4rem;
+  -webkit-box-shadow: 0rem 0rem 2rem 0.1rem var(--light);
+          box-shadow: 0rem 0rem 2rem 0.1rem var(--light);
+  margin-left: 2rem;
+  margin-top: 5rem;
+}
+
+.form-btn:hover {
+  color: #fff;
+}
+
+/*------*/
+/*footer section*/
+/*------*/
+footer {
+  background: var(--primary);
+  font-family: sans-serif;
+}
+
+footer .footer__strate {
+  padding: 7rem 0rem 5rem 0rem;
+}
+
+footer .footer__strate h3 {
+  font-size: 2rem;
+  color: var(--light);
+  margin-bottom: 4rem;
+}
+
+footer .footer__strate p {
+  color: var(--light);
+  font-size: 1.8rem;
+}
+
+footer .footer__strate .list-group .list-group-item {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  color: var(--light);
+  padding: .3rem;
+  text-transform: capitalize;
+}
+
+footer .footer__end {
+  padding: 3rem;
+}
 /*# sourceMappingURL=style.css.map */
