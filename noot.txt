@@ -184,3 +184,37 @@ icon company location
 Write to us at 
 
 call is on 
+
+/*--------*/
+btn
+/*---------*/
+Send message
+
+/*-------------*/
+footer
+/*----------*/
+about Us 
+lorem10
+
+Company
+*privacy policy
+*terms & condition
+*Latest Blogs
+*App Services
+
+Quick links 
+*home 
+*features
+*screeenshots
+*pricing
+*testimoniais
+
+Social pages 
+*facebook
+*twitter
+*instagram
+*linkedin
+
+
+
+©2021 @The web shala
