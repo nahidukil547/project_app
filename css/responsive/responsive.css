@@ -33,7 +33,7 @@
 @media screen and (max-width: 991px) {
   #header {
     width        : auto;
-    height       : 120vh;
+    height       : auto;
     border-radius: 0;
   }
 
@@ -98,9 +98,22 @@
     content: '';
     display: none;
   }
+  .fact__details{
+    margin: 4rem 0rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
+
+   h2 {
+   font-size: 3rem;
+  }
+   h3 {
+   font-size: 2rem !important;
+ }
+  p {
+   font-size: 1.4rem !important; 
+ }
   .navbar__logo {
     font-size: 2.5rem;
   }
@@ -126,7 +139,7 @@
 
 @media screen and (max-width: 576px) {
   #header {
-    height: 80vh !important;
+    height: auto !important;
   }
 
   .nav-item {
@@ -156,10 +169,6 @@
     font-size: 2.5rem !important;
   }
 
-  .app__intro p {
-    font-size: 1.4rem;
-  }
-
   .app__img {
     width     : 15rem;
     height    : 30rem;
@@ -187,10 +196,6 @@
     padding   : 0;
   }
 
-  .features h2 {
-    font-size: 3rem;
-  }
-
   .features .item {
     padding: 0 !important;
     margin : 0;
@@ -199,10 +204,6 @@
   .features .item .features__box {
     padding: 0;
     width  : 100%;
-  }
-
-  .features .item .features__box h3 {
-    font-size: 2rem;
   }
 
   .features .item .features__box p {

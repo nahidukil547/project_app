@@ -1,13 +1,13 @@
 $('.owl-carousel-1').owlCarousel({
     loop: true,
     margin: 10,
-    autoplay:true,
+    autoplay: true,
     responsive: {
         0: {
             items: 1
         },
-        400:{
-            items:1
+        400: {
+            items: 1
         },
         600: {
             items: 2
@@ -20,7 +20,7 @@ $('.owl-carousel-1').owlCarousel({
 
 var typed = new Typed('.type', {
     strings: [
-        'Mobile App Template', 
+        'Mobile App Template',
         'User Friendly ',
         'Use Your Business..',
         'App system !! ',
@@ -32,6 +32,7 @@ var typed = new Typed('.type', {
     startDelay: 0,
     stringsElement: null,
 });
+
 $('.owl-carousel-2').owlCarousel({
     loop: true,
     margin: 40,
@@ -51,6 +52,7 @@ $('.owl-carousel-2').owlCarousel({
         }
     }
 })
+
 $('.owl-carousel-3').owlCarousel({
     loop: true,
     margin: 20,
@@ -67,6 +69,7 @@ $('.owl-carousel-3').owlCarousel({
         }
     }
 })
+
 $('.owl-carousel-4').owlCarousel({
     loop: true,
     margin: 20,
@@ -81,5 +84,7 @@ $('.owl-carousel-4').owlCarousel({
         1000: {
             items: 3
         }
-    }
+    },
+    
 })
+AOS.init();
